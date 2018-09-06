@@ -40,11 +40,14 @@ nav a:hover {
    width: 100%;
    height: calc(100vh - 5.8rem);
    display: inline-flex;
+
 }
 
 #content-main{
     width: 70%;
     color: #bdbdbd;
+    overflow-x: hidden;
+    transition: 0.5s;
 }
 #content-main h3{
     color: #9e9e9e;
@@ -62,7 +65,9 @@ nav a:hover {
     width: 30%;
     background-color: #fafafa;
     margin-left: 2rem;
-    margin-top:-2rem
+    margin-top:-2rem;
+    overflow-x: hidden;
+    transition: 0.5s;
 }
 
 /* Extra small devices (phones, 600px and down) */
